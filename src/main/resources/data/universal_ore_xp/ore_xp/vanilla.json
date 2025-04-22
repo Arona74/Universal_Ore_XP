@@ -1,0 +1,37 @@
+[
+  {
+    "ore": "minecraft:deepslate_gold_ore",
+    "minXp": 2,
+    "maxXp": 3
+  },
+  {
+    "ore": "minecraft:gold_ore",
+    "minXp": 1,
+    "maxXp": 3
+  },
+  {
+    "ore": "minecraft:iron_ore",
+    "minXp": 1,
+    "maxXp": 3
+  },
+  {
+    "ore": "minecraft:deepslate_iron_ore",
+    "minXp": 2,
+    "maxXp": 3
+  },
+  {
+    "ore": "minecraft:copper_ore",
+    "minXp": 1,
+    "maxXp": 3
+  },
+  {
+    "ore": "minecraft:deepslate_copper_ore",
+    "minXp": 2,
+    "maxXp": 3
+  },
+  {
+    "ore": "minecraft:ancient_debris",
+    "minXp": 3,
+    "maxXp": 5
+  }
+]

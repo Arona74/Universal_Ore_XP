@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "universal_ore_xp",
+	"version": "${version}",
+	"name": "Universal Ore XP",
+	"description": "A mod which makes every ore drop XP! Data pack and Mod pack creators can also add their own JSON files to make any block, let it be modded or vanilla, drop any amount of XP when broken.",
+	"authors": [
+		"Anol"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/universal_ore_xp/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.anoltongi.UniversalOreXP"
+		]
+	},
+	"mixins": [
+		"universal_ore_xp.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
