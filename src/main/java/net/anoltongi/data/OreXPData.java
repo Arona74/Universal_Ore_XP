@@ -22,7 +22,7 @@ import java.util.Map;
 
 /*
   A data‑driven loader that watches data/universal_ore_xp/ore_xp/*.json
-  and builds a Block→IntRange map for your ore→XP logic.
+  and builds a Block to IntRange map for your ore to XP logic.
  */
 public class OreXPData implements SimpleSynchronousResourceReloadListener {
     private static final Logger LOGGER = LoggerFactory.getLogger("OreXPData");

@@ -21,7 +21,7 @@ public class CustomOreXP {
             OreXPData.IntRange range = OreXPData.get(block);
             if (range != null) {
                 //int fortune = EnchantmentHelper.getLevel(Enchantments.FORTUNE, player.getMainHandStack());
-                //I was originally thinking of getting more xp per fortune level but, it just might be too OP xD Instead I might try making it as a config later on.
+                //I was originally thinking of getting more xp per fortune level but, it just might be too OP xD, instead I might try making it as a config later on.
                 int baseXp  = range.random(world.random);
                 int totalXp = baseXp;
                 spawnXp(world, pos, totalXp);
