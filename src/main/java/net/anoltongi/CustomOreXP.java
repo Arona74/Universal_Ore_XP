@@ -2,6 +2,7 @@ package net.anoltongi;
 
 import net.anoltongi.data.OreXPData;
 import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
+import net.levelz.entity.LevelExperienceOrbEntity;
 import net.minecraft.block.ExperienceDroppingBlock;
 import net.minecraft.entity.ExperienceOrbEntity;
 import net.minecraft.util.math.BlockPos;
@@ -36,6 +37,7 @@ public class CustomOreXP {
         if (amount > 0) {
             double x = pos.getX() + 0.5, y = pos.getY() + 0.5, z = pos.getZ() + 0.5;
             world.spawnEntity(new ExperienceOrbEntity(world, x, y, z, amount));
+            world.spawnEntity(new LevelExperienceOrbEntity(world, x, y, z, amount));
         }
     }
 

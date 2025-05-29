@@ -28,10 +28,5 @@
     "ore": "minecraft:deepslate_copper_ore",
     "minXp": 2,
     "maxXp": 3
-  },
-  {
-    "ore": "minecraft:ancient_debris",
-    "minXp": 3,
-    "maxXp": 5
   }
 ]
